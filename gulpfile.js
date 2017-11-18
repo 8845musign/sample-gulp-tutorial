@@ -52,7 +52,7 @@ gulp.task("watch", (done) => {
     browserSync.reload()
     done()
   }
-  gulp.watch("./src/**/*.pug", gulp.parallel("pug"))
+  gulp.watch(["./src/**/*.pug", "./src/**/*.json"], gulp.parallel("pug"))
   gulp.watch("./src/**/*.scss", gulp.parallel("sass"))
   gulp.watch(["./dist/*.html", "./dist/*.css"], browserReload)
 })
