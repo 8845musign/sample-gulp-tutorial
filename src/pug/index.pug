@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    title=siteTitle
+    meta(name="description", content=description)
+  body
+    h1
+      | #{siteTitle}
+    p
+      | #{description}
+    - for (i in sections)
+      section
+        h2
+          | #{sections[i].title}
+        p
+          | #{sections[i].description}

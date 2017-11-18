@@ -1,0 +1,18 @@
+{
+  "siteTitle": "sample gulp",
+  "description": "This is sample gulp",
+  "sections": [
+    {
+      "title": "What's gulp?",
+      "description": "gulp is..."
+    },
+    {
+      "title": "How to install",
+      "description": "first..."
+    },
+    {
+      "title": "Run gulp",
+      "description": "Let's..."
+    }
+  ]
+}

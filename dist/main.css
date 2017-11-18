@@ -1,0 +1,5 @@
+.hoge {
+  display: -webkit-flex;
+  display: flex; }
+  .hoge .fuga {
+    background-color: tomato; }
